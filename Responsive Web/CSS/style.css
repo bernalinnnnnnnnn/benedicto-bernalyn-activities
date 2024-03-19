@@ -1,0 +1,64 @@
+@media only screen and (min-width: 300px) {
+  body {
+    background-color: red;
+    font-size: 12px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    background-image: url('IMAGES/berna5.png');
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  body {
+    background-color: orange;
+    font-size: 20px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    background-image: url('IMAGES/berna4.png');
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    background-color: yellow;
+    font-size: 30px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    background-image: url('IMAGES/berna3.png');
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background-color: green;
+    font-size: 50px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    background-image: url('IMAGES/berna2.png');
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  body {
+    background-color: blue;
+    font-size: 100px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    background-image: url('IMAGES/berna1.png');
+  }
+}
